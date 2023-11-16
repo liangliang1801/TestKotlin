@@ -1,5 +1,7 @@
 package com.ramotion.fluidslider.example.simple
 
+import androidx.annotation.VisibleForTesting
+
 /**
  * Author :   wutianlong@ushareit.com
  * Date   :   2023/11/10

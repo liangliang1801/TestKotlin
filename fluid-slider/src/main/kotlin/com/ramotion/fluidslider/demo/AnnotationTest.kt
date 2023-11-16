@@ -11,6 +11,7 @@ import java.lang.annotation.RetentionPolicy
 fun main() {
     AnnotationTest().test(UATActionEvent.BACK_PRESSED)
     AnnotationTest().test(UATActionEvent.SCROLL)
+    AnnotationTest().test("aaa")
 
 }
 class AnnotationTest {
