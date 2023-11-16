@@ -22,6 +22,9 @@ fun main() {
         println("testinvoke")
         "$value ===== returnvalue"
     }
+
+    selfparmas=0
+    println("$selfparmas")
 }
 
 
@@ -32,7 +35,9 @@ fun String.insertCharBetweenString(block: (Char) -> String): String {
     for (i in indices) {
 
         if (i != indices.last) {  // indices.last 代表最后一个索引下标，若字符串长度是5  ，则last代表4
-            builder.append(block.invoke(get(i)))
+            builder.append(  block.invoke(get(i)  ))
+
+            // 或者   builder.append(  block(get(i))  )
 
         } else {
             builder.append(get(i))
@@ -54,3 +59,12 @@ fun View.show() {
 fun View.hide() {
     visibility = View.GONE
 }
+
+var selfparmas:Int =0
+    get() = field
+    set(value) {
+        if (value >1)
+            field = 11111
+        else
+            field = 2222
+    }
