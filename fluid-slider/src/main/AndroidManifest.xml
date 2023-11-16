@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ramotion.fluidslider">
+
+  <!--  <activity
+        android:name=".tools.PdfToolsProcessActivity"
+        android:configChanges="orientation|keyboardHidden|screenSize|screenLayout|smallestScreenSize"
+        android:launchMode="standard"
+        android:screenOrientation="portrait"
+        android:theme="@style/Theme.Base.White" />-->
+</manifest>
